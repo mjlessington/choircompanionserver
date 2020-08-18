@@ -5,6 +5,7 @@ var io = require('socket.io')(http);
 const port = process.env.PORT || 3001;
 
 app.get('/', (req, res) => {
+  console.log("Yo Remo!")
   res.send('<h1>Hello world</h1>');
 });
 
